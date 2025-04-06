@@ -24,7 +24,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const result = await axios.post("https://recipe-app-kh93.onrender.com/auth/login", {
+      const result = await axios.post("https://recipe-app-h7zy.onrender.com/auth/login", {
         username,
         password,
       });
